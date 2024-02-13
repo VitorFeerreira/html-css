@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'IDroid';
+    src: url(fontes/idroid.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+:root{
+    --cor0: #c5ebd6;
+    --cor1: #83E1Ad;
+    --cor2: #3DDc84;
+    --cor3: #2Fa866;
+    --cor4: #1A5C37;
+    --cor5: #063d06;
+    --fonte0: Arial, Helvetica, sans-serif;
+    --fonte1: 'Bebas Neue', sans-serif;
+    --fonte2: 'IDroid', sans-serif; 
+}
