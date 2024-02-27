@@ -13,6 +13,8 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
+            /* fixa cabeçalho */
         }
 
         td,
@@ -32,6 +34,13 @@
         tfoot {
             background-color: rgb(87, 87, 87);
             color: white;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            /* fixa cabeçalho */
+            top: -1px;
+            background-color: rgb(87, 87, 87);
         }
         tbody > tr:nth-child(odd){ /*2n-1*/
             background-color: white;
